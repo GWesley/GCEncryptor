@@ -1,2 +1,2 @@
 # GCEncryptor
-A Mac app for encrypt, using RNCryptor lib
+A Mac app for file	encryption, using RNCryptor lib
