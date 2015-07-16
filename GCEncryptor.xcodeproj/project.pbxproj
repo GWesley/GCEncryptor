@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637341361A72477400F6E729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637341351A72477400F6E729 /* AppDelegate.m */; };
+		637341381A72477400F6E729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637341371A72477400F6E729 /* main.m */; };
+		6373413B1A72477400F6E729 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373413A1A72477400F6E729 /* ViewController.m */; };
+		6373413D1A72477400F6E729 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6373413C1A72477400F6E729 /* Images.xcassets */; };
+		637341401A72477400F6E729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6373413E1A72477400F6E729 /* Main.storyboard */; };
+		6373414C1A72477400F6E729 /* GCEncryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373414B1A72477400F6E729 /* GCEncryptorTests.m */; };
+		637341601A724B1600F6E729 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 637341591A724B1600F6E729 /* RNCryptor.m */; };
+		637341611A724B1600F6E729 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373415B1A724B1600F6E729 /* RNCryptorEngine.m */; };
+		637341621A724B1600F6E729 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373415D1A724B1600F6E729 /* RNDecryptor.m */; };
+		637341631A724B1600F6E729 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373415F1A724B1600F6E729 /* RNEncryptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637341461A72477400F6E729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637341271A72477400F6E729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6373412E1A72477400F6E729;
+			remoteInfo = GCEncryptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6373412F1A72477400F6E729 /* GCEncryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCEncryptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637341331A72477400F6E729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637341341A72477400F6E729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		637341351A72477400F6E729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637341371A72477400F6E729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637341391A72477400F6E729 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6373413A1A72477400F6E729 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6373413C1A72477400F6E729 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6373413F1A72477400F6E729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637341451A72477400F6E729 /* GCEncryptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCEncryptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6373414A1A72477400F6E729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6373414B1A72477400F6E729 /* GCEncryptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCEncryptorTests.m; sourceTree = "<group>"; };
+		637341561A724B1600F6E729 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		637341581A724B1600F6E729 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		637341591A724B1600F6E729 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		6373415A1A724B1600F6E729 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		6373415B1A724B1600F6E729 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		6373415C1A724B1600F6E729 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		6373415D1A724B1600F6E729 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		6373415E1A724B1600F6E729 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		6373415F1A724B1600F6E729 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6373412C1A72477400F6E729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637341421A72477400F6E729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637341261A72477400F6E729 = {
+			isa = PBXGroup;
+			children = (
+				637341311A72477400F6E729 /* GCEncryptor */,
+				637341481A72477400F6E729 /* GCEncryptorTests */,
+				637341301A72477400F6E729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637341301A72477400F6E729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6373412F1A72477400F6E729 /* GCEncryptor.app */,
+				637341451A72477400F6E729 /* GCEncryptorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637341311A72477400F6E729 /* GCEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				637341551A724B1600F6E729 /* RNCryptor */,
+				637341341A72477400F6E729 /* AppDelegate.h */,
+				637341351A72477400F6E729 /* AppDelegate.m */,
+				637341391A72477400F6E729 /* ViewController.h */,
+				6373413A1A72477400F6E729 /* ViewController.m */,
+				6373413C1A72477400F6E729 /* Images.xcassets */,
+				6373413E1A72477400F6E729 /* Main.storyboard */,
+				637341321A72477400F6E729 /* Supporting Files */,
+			);
+			path = GCEncryptor;
+			sourceTree = "<group>";
+		};
+		637341321A72477400F6E729 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				637341331A72477400F6E729 /* Info.plist */,
+				637341371A72477400F6E729 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637341481A72477400F6E729 /* GCEncryptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6373414B1A72477400F6E729 /* GCEncryptorTests.m */,
+				637341491A72477400F6E729 /* Supporting Files */,
+			);
+			path = GCEncryptorTests;
+			sourceTree = "<group>";
+		};
+		637341491A72477400F6E729 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6373414A1A72477400F6E729 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637341551A724B1600F6E729 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				637341561A724B1600F6E729 /* RNCryptor+Private.h */,
+				637341581A724B1600F6E729 /* RNCryptor.h */,
+				637341591A724B1600F6E729 /* RNCryptor.m */,
+				6373415A1A724B1600F6E729 /* RNCryptorEngine.h */,
+				6373415B1A724B1600F6E729 /* RNCryptorEngine.m */,
+				6373415C1A724B1600F6E729 /* RNDecryptor.h */,
+				6373415D1A724B1600F6E729 /* RNDecryptor.m */,
+				6373415E1A724B1600F6E729 /* RNEncryptor.h */,
+				6373415F1A724B1600F6E729 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6373412E1A72477400F6E729 /* GCEncryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6373414F1A72477400F6E729 /* Build configuration list for PBXNativeTarget "GCEncryptor" */;
+			buildPhases = (
+				6373412B1A72477400F6E729 /* Sources */,
+				6373412C1A72477400F6E729 /* Frameworks */,
+				6373412D1A72477400F6E729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCEncryptor;
+			productName = GCEncryptor;
+			productReference = 6373412F1A72477400F6E729 /* GCEncryptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637341441A72477400F6E729 /* GCEncryptorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637341521A72477400F6E729 /* Build configuration list for PBXNativeTarget "GCEncryptorTests" */;
+			buildPhases = (
+				637341411A72477400F6E729 /* Sources */,
+				637341421A72477400F6E729 /* Frameworks */,
+				637341431A72477400F6E729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637341471A72477400F6E729 /* PBXTargetDependency */,
+			);
+			name = GCEncryptorTests;
+			productName = GCEncryptorTests;
+			productReference = 637341451A72477400F6E729 /* GCEncryptorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637341271A72477400F6E729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GWesley;
+				TargetAttributes = {
+					6373412E1A72477400F6E729 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					637341441A72477400F6E729 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6373412E1A72477400F6E729;
+					};
+				};
+			};
+			buildConfigurationList = 6373412A1A72477400F6E729 /* Build configuration list for PBXProject "GCEncryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637341261A72477400F6E729;
+			productRefGroup = 637341301A72477400F6E729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6373412E1A72477400F6E729 /* GCEncryptor */,
+				637341441A72477400F6E729 /* GCEncryptorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6373412D1A72477400F6E729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6373413D1A72477400F6E729 /* Images.xcassets in Resources */,
+				637341401A72477400F6E729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637341431A72477400F6E729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6373412B1A72477400F6E729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637341631A724B1600F6E729 /* RNEncryptor.m in Sources */,
+				6373413B1A72477400F6E729 /* ViewController.m in Sources */,
+				637341601A724B1600F6E729 /* RNCryptor.m in Sources */,
+				637341381A72477400F6E729 /* main.m in Sources */,
+				637341611A724B1600F6E729 /* RNCryptorEngine.m in Sources */,
+				637341621A724B1600F6E729 /* RNDecryptor.m in Sources */,
+				637341361A72477400F6E729 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637341411A72477400F6E729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6373414C1A72477400F6E729 /* GCEncryptorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637341471A72477400F6E729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6373412E1A72477400F6E729 /* GCEncryptor */;
+			targetProxy = 637341461A72477400F6E729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6373413E1A72477400F6E729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6373413F1A72477400F6E729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6373414D1A72477400F6E729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6373414E1A72477400F6E729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		637341501A72477400F6E729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GCEncryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		637341511A72477400F6E729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GCEncryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		637341531A72477400F6E729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GCEncryptorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCEncryptor.app/Contents/MacOS/GCEncryptor";
+			};
+			name = Debug;
+		};
+		637341541A72477400F6E729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GCEncryptorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCEncryptor.app/Contents/MacOS/GCEncryptor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6373412A1A72477400F6E729 /* Build configuration list for PBXProject "GCEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6373414D1A72477400F6E729 /* Debug */,
+				6373414E1A72477400F6E729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6373414F1A72477400F6E729 /* Build configuration list for PBXNativeTarget "GCEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637341501A72477400F6E729 /* Debug */,
+				637341511A72477400F6E729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637341521A72477400F6E729 /* Build configuration list for PBXNativeTarget "GCEncryptorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637341531A72477400F6E729 /* Debug */,
+				637341541A72477400F6E729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637341271A72477400F6E729 /* Project object */;
+}
